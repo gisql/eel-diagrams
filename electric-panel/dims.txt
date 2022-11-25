@@ -1,0 +1,12 @@
+Usable wall to the left of chart table: 100x50cm
+Electrical panel: 21x42cm (26x48cm with frame)
+Wall behind chart plotter: 50x33cm
+
+Battery monitor 11x11cm
+Stereo 18.8x5.8cm
+VHF + mic 20x9.7cm + 5.5x9.4cm
+SSB mic 
+new SSB 27.5x11.5cm
+Navtex 15x11.2cm
+Chart plotter 28.8x19.7cm
+
