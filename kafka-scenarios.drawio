@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-31T15:15:17.214Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="Hf7A082Uy2wuYKeVw_UP" version="22.0.8" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2023-10-31T15:18:50.828Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="LwUpEoYD4Q1rCU4dIMq1" version="22.0.8" type="github" pages="3">
   <diagram name="Page-1" id="80Oix9W_3gITdpNuIAfE">
     <mxGraphModel dx="1242" dy="715" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -313,15 +313,15 @@
         <mxCell id="riJE41O_cS1-Py5NGMvR-0" />
         <mxCell id="riJE41O_cS1-Py5NGMvR-1" parent="riJE41O_cS1-Py5NGMvR-0" />
         <mxCell id="riJE41O_cS1-Py5NGMvR-2" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="riJE41O_cS1-Py5NGMvR-1">
-          <mxGeometry x="30" y="50" width="1000" height="640" as="geometry" />
+          <mxGeometry x="20" y="115" width="1150" height="640" as="geometry" />
         </mxCell>
         <mxCell id="riJE41O_cS1-Py5NGMvR-3" value="Internal Producer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="riJE41O_cS1-Py5NGMvR-1">
           <mxGeometry x="220" y="320" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="riJE41O_cS1-Py5NGMvR-4" value="UKS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="riJE41O_cS1-Py5NGMvR-1">
-          <mxGeometry x="470" y="210" width="120" height="60" as="geometry" />
+        <mxCell id="jUkqL0fU5rd7hw4gU655-4" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" edge="1" parent="riJE41O_cS1-Py5NGMvR-1" source="riJE41O_cS1-Py5NGMvR-5" target="riJE41O_cS1-Py5NGMvR-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="riJE41O_cS1-Py5NGMvR-5" value="Kafka Streams" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;" vertex="1" parent="riJE41O_cS1-Py5NGMvR-1">
+        <mxCell id="riJE41O_cS1-Py5NGMvR-5" value="Kafka Streams (timestamped)" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;" vertex="1" parent="riJE41O_cS1-Py5NGMvR-1">
           <mxGeometry x="300" y="520" width="500" height="30" as="geometry" />
         </mxCell>
         <mxCell id="riJE41O_cS1-Py5NGMvR-6" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.056;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;shape=flexArrow;" edge="1" parent="riJE41O_cS1-Py5NGMvR-1" source="riJE41O_cS1-Py5NGMvR-3" target="riJE41O_cS1-Py5NGMvR-5">
@@ -348,33 +348,11 @@
             <mxPoint x="600" y="340" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="riJE41O_cS1-Py5NGMvR-11" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;strokeWidth=3;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="riJE41O_cS1-Py5NGMvR-1" source="riJE41O_cS1-Py5NGMvR-7" target="riJE41O_cS1-Py5NGMvR-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="530" y="410" as="sourcePoint" />
-            <mxPoint x="580" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="riJE41O_cS1-Py5NGMvR-12" value="User Key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="riJE41O_cS1-Py5NGMvR-11">
-          <mxGeometry x="-0.2476" y="-3" relative="1" as="geometry">
-            <mxPoint y="1" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="riJE41O_cS1-Py5NGMvR-13" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;strokeWidth=3;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="riJE41O_cS1-Py5NGMvR-1" source="riJE41O_cS1-Py5NGMvR-4" target="riJE41O_cS1-Py5NGMvR-3">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="330" as="sourcePoint" />
-            <mxPoint x="480" y="265" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="riJE41O_cS1-Py5NGMvR-14" value="User Key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="riJE41O_cS1-Py5NGMvR-13">
-          <mxGeometry x="-0.2476" y="-3" relative="1" as="geometry">
-            <mxPoint x="-14" y="18" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="riJE41O_cS1-Py5NGMvR-15" value="Consumer" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="riJE41O_cS1-Py5NGMvR-1">
-          <mxGeometry x="640" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="860" y="430" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="riJE41O_cS1-Py5NGMvR-16" value="View" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="riJE41O_cS1-Py5NGMvR-1">
-          <mxGeometry x="780" y="410" width="30" height="50" as="geometry" />
+          <mxGeometry x="1060" y="500" width="30" height="50" as="geometry" />
         </mxCell>
         <mxCell id="riJE41O_cS1-Py5NGMvR-17" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;curved=1;strokeWidth=3;" edge="1" parent="riJE41O_cS1-Py5NGMvR-1" source="riJE41O_cS1-Py5NGMvR-15" target="riJE41O_cS1-Py5NGMvR-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -382,19 +360,13 @@
             <mxPoint x="799" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="riJE41O_cS1-Py5NGMvR-18" value="" style="shape=flexArrow;endArrow=classic;startArrow=none;html=1;rounded=1;exitX=0.86;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;startFill=0;" edge="1" parent="riJE41O_cS1-Py5NGMvR-1" source="riJE41O_cS1-Py5NGMvR-5">
-          <mxGeometry width="100" height="100" relative="1" as="geometry">
-            <mxPoint x="680.5" y="536" as="sourcePoint" />
-            <mxPoint x="699.5" y="400" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="riJE41O_cS1-Py5NGMvR-19" value="End User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="riJE41O_cS1-Py5NGMvR-1">
-          <mxGeometry x="750" y="10" width="30" height="60" as="geometry" />
+          <mxGeometry x="40" y="570" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="riJE41O_cS1-Py5NGMvR-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="riJE41O_cS1-Py5NGMvR-1" source="riJE41O_cS1-Py5NGMvR-19" target="riJE41O_cS1-Py5NGMvR-4">
+        <mxCell id="riJE41O_cS1-Py5NGMvR-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=10;entryDy=0;entryPerimeter=0;" edge="1" parent="riJE41O_cS1-Py5NGMvR-1" source="riJE41O_cS1-Py5NGMvR-19" target="jUkqL0fU5rd7hw4gU655-0">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="500" y="770" as="sourcePoint" />
-            <mxPoint x="550" y="720" as="targetPoint" />
+            <mxPoint x="530" y="210" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="riJE41O_cS1-Py5NGMvR-21" value="Forget Me" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="riJE41O_cS1-Py5NGMvR-20">
@@ -402,24 +374,16 @@
             <mxPoint x="33" y="-28" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="riJE41O_cS1-Py5NGMvR-22" value="Cyrpto Shred the Key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="riJE41O_cS1-Py5NGMvR-20">
-          <mxGeometry x="0.6689" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
+        <mxCell id="jUkqL0fU5rd7hw4gU655-0" value="RTBF (timestamped)" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0;dx=10;notch=10;" vertex="1" parent="riJE41O_cS1-Py5NGMvR-1">
+          <mxGeometry x="298" y="570" width="500" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="riJE41O_cS1-Py5NGMvR-23" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;strokeWidth=3;edgeStyle=orthogonalEdgeStyle;curved=1;" edge="1" parent="riJE41O_cS1-Py5NGMvR-1" source="riJE41O_cS1-Py5NGMvR-15" target="riJE41O_cS1-Py5NGMvR-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="440" y="330" as="sourcePoint" />
-            <mxPoint x="480" y="265" as="targetPoint" />
+        <mxCell id="jUkqL0fU5rd7hw4gU655-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="riJE41O_cS1-Py5NGMvR-1" source="riJE41O_cS1-Py5NGMvR-15" target="jUkqL0fU5rd7hw4gU655-0">
+          <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="670" y="300" />
-              <mxPoint x="560" y="300" />
+              <mxPoint x="920" y="500" />
+              <mxPoint x="880" y="500" />
+              <mxPoint x="880" y="585" />
             </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="riJE41O_cS1-Py5NGMvR-24" value="User Key" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="riJE41O_cS1-Py5NGMvR-23">
-          <mxGeometry x="-0.2476" y="-3" relative="1" as="geometry">
-            <mxPoint x="-2" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
